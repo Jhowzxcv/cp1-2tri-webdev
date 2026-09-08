@@ -1,0 +1,13 @@
+.busca__resultados {
+  margin-top: 26px;
+}
+
+.busca__contagem {
+  margin-bottom: 22px;
+  color: var(--texto-4);
+  font-size: 13.5px;
+}
+
+.busca__contagem span {
+  color: var(--texto-3);
+}

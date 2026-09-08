@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Archivo:wght@400;500;600&display=swap">
+  <style>
+    body { margin: 0; background: #12100E; font-family: Archivo, system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+    a { color: #E8A33D; text-decoration: none; }
+    a:hover { color: #F2BE86; }
+    * { box-sizing: border-box; }
+  </style>
+</helmet>
+
+<div style="width: 1440px; background: #12100E; color: #F5F1EA;">
+
+  <header style="display: flex; align-items: center; gap: 28px; height: 64px; padding: 0 40px; border-bottom: 1px solid #2E2924;">
+    <div style="display: flex; align-items: baseline; gap: 3px;">
+      <span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 23px; color: #F5F1EA;">Onde</span>
+      <span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 23px; color: #E8A33D;">Parei</span>
+    </div>
+    <nav style="display: flex; align-items: center; gap: 4px;">
+      <span style="display: flex; align-items: center; gap: 8px; padding: 7px 12px; border-radius: 4px; color: #A39B8F; font-size: 14px;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5.5 9.5V21h13V9.5"/></svg>
+        Minhas séries
+      </span>
+      <span style="display: flex; align-items: center; gap: 8px; padding: 7px 12px; border-radius: 4px; background: #221E1A; color: #F5F1EA; font-size: 14px; font-weight: 500;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        Buscar
+      </span>
+      <span style="display: flex; align-items: center; gap: 8px; padding: 7px 12px; border-radius: 4px; color: #A39B8F; font-size: 14px;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10"/><path d="M12 20V4"/><path d="M20 20v-7"/></svg>
+        Estatísticas
+      </span>
+    </nav>
+    <div style="flex-grow: 1;"></div>
+    <span style="padding: 6px 11px; border: 1px solid #2E2924; border-radius: 100px; color: #A39B8F; font-size: 12.5px;">12 séries acompanhadas</span>
+  </header>
+
+  <main style="max-width: 1200px; margin: 0 auto; padding: 44px 40px 56px;">
+
+    <h1 style="margin: 0 0 20px; font-family: 'Instrument Serif', Georgia, serif; font-size: 44px; font-weight: 400; line-height: 1.05; letter-spacing: -0.3px;">Buscar séries</h1>
+
+    <div style="display: flex; align-items: center; gap: 12px; max-width: 620px; padding: 0 16px; height: 52px; background: #1A1714; border: 1px solid #3C352D; border-radius: 6px;">
+      <span style="display: flex; color: #E8A33D;">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      </span>
+      <span style="flex-grow: 1; font-size: 16px; color: #F5F1EA;">the last</span>
+      <span style="display: flex; align-items: center; justify-content: center; width: 24px; height: 24px; border-radius: 4px; color: #6E665C;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </span>
+    </div>
+
+    <p style="margin: 16px 0 26px; font-size: 13.5px; color: #6E665C;">18 resultados para <span style="color: #A39B8F;">"the last"</span></p>
+
+    <div style="display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 20px;">
+
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <div style="position: relative; display: flex; align-items: center; justify-content: center; height: 268px; border-radius: 5px; background: #2A241C;">
+          <span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 72px; line-height: 1; color: #F5F1EA; opacity: 0.12;">L</span>
+          <span style="position: absolute; top: 9px; left: 9px; padding: 3px 8px; border-radius: 3px; background: rgba(123,174,142,0.16); color: #7BAE8E; font-size: 11.5px; font-weight: 600;">Seguindo</span>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <span style="font-size: 14px; font-weight: 500; color: #F5F1EA;">The Last of Us</span>
+          <span style="display: flex; align-items: center; gap: 8px; font-size: 12.5px; color: #6E665C;">
+            2023
+            <span style="display: flex; align-items: center; gap: 3px; color: #A39B8F;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6.1L12 16.8 6.7 19.7l1.1-6.1L3.4 9.4l6-.8z"/></svg>
+              8.6
+            </span>
+          </span>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <div style="display: flex; align-items: center; justify-content: center; height: 268px; border-radius: 5px; background: #231F26;">
+          <span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 72px; line-height: 1; color: #F5F1EA; opacity: 0.12;">K</span>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <span style="font-size: 14px; font-weight: 500; color: #F5F1EA;">The Last Kingdom</span>
+          <span style="display: flex; align-items: center; gap: 8px; font-size: 12.5px; color: #6E665C;">
+            2015
+            <span style="display: flex; align-items: center; gap: 3px; color: #A39B8F;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6.1L12 16.8 6.7 19.7l1.1-6.1L3.4 9.4l6-.8z"/></svg>
+              8.2
+            </span>
+          </span>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; height: 268px; border-radius: 5px; background: #1A1714; border: 1px dashed #3C352D;">
+          <span style="display: flex; color: #4A423A;">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="m8 3 4 3 4-3"/></svg>
+          </span>
+          <span style="font-size: 11.5px; color: #4A423A;">sem pôster</span>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <span style="font-size: 14px; font-weight: 500; color: #F5F1EA;">The Last Airbender</span>
+          <span style="display: flex; align-items: center; gap: 8px; font-size: 12.5px; color: #6E665C;">
+            2024
+            <span style="display: flex; align-items: center; gap: 3px; color: #A39B8F;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6.1L12 16.8 6.7 19.7l1.1-6.1L3.4 9.4l6-.8z"/></svg>
+              7.1
+            </span>
+          </span>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <div style="display: flex; align-items: center; justify-content: center; height: 268px; border-radius: 5px; background: #1E2429;">
+          <span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 72px; line-height: 1; color: #F5F1EA; opacity: 0.12;">M</span>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <span style="font-size: 14px; font-weight: 500; color: #F5F1EA;">The Last Man on Earth</span>
+          <span style="display: flex; align-items: center; gap: 8px; font-size: 12.5px; color: #6E665C;">
+            2015
+            <span style="display: flex; align-items: center; gap: 3px; color: #A39B8F;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6.1L12 16.8 6.7 19.7l1.1-6.1L3.4 9.4l6-.8z"/></svg>
+              7.0
+            </span>
+          </span>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <div style="display: flex; align-items: center; justify-content: center; height: 268px; border-radius: 5px; background: #262019;">
+          <span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 72px; line-height: 1; color: #F5F1EA; opacity: 0.12;">S</span>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <span style="font-size: 14px; font-weight: 500; color: #F5F1EA;">The Last Ship</span>
+          <span style="display: flex; align-items: center; gap: 8px; font-size: 12.5px; color: #6E665C;">
+            2014
+            <span style="display: flex; align-items: center; gap: 3px; color: #A39B8F;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6.1L12 16.8 6.7 19.7l1.1-6.1L3.4 9.4l6-.8z"/></svg>
+              6.9
+            </span>
+          </span>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <div style="display: flex; align-items: center; justify-content: center; height: 268px; border-radius: 5px; background: #1F2521;">
+          <span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 72px; line-height: 1; color: #F5F1EA; opacity: 0.12;">D</span>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <span style="font-size: 14px; font-weight: 500; color: #F5F1EA;">The Last Dance</span>
+          <span style="display: flex; align-items: center; gap: 8px; font-size: 12.5px; color: #6E665C;">
+            2020
+            <span style="display: flex; align-items: center; gap: 3px; color: #A39B8F;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6.1L12 16.8 6.7 19.7l1.1-6.1L3.4 9.4l6-.8z"/></svg>
+              8.5
+            </span>
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </main>
+</div>
+</x-dc>
+</body>
+</html>

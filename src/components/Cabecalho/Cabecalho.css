@@ -1,0 +1,116 @@
+.cabecalho {
+  border-bottom: 1px solid var(--borda);
+  background: var(--fundo);
+}
+
+.cabecalho__interno {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: var(--largura);
+  height: 56px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.cabecalho__marca {
+  display: flex;
+  align-items: baseline;
+  gap: 3px;
+  font-family: var(--serif);
+  font-size: 21px;
+}
+
+.cabecalho__marca-1 {
+  color: var(--texto);
+}
+
+.cabecalho__marca-2 {
+  font-style: italic;
+  color: var(--acento);
+}
+
+.cabecalho__marca:hover .cabecalho__marca-1 {
+  color: var(--texto);
+}
+
+.cabecalho__contador {
+  display: none;
+  margin-left: auto;
+  padding: 6px 11px;
+  border: 1px solid var(--borda);
+  border-radius: 100px;
+  color: var(--texto-3);
+  font-size: 12.5px;
+}
+
+/* --------- mobile: navegação vira barra inferior fixa --------- */
+
+.cabecalho__nav {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 68px;
+  border-top: 1px solid var(--borda);
+  background: #16130f;
+}
+
+.cabecalho__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: var(--texto-4);
+  font-size: 11px;
+}
+
+.cabecalho__link--ativo {
+  color: var(--acento);
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .cabecalho__interno {
+    height: 64px;
+    padding: 0 40px;
+  }
+
+  .cabecalho__contador {
+    display: inline-block;
+  }
+
+  .cabecalho__nav {
+    position: static;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    height: auto;
+    border-top: none;
+    background: transparent;
+  }
+
+  .cabecalho__link {
+    flex-direction: row;
+    gap: 8px;
+    padding: 7px 12px;
+    border-radius: var(--raio-p);
+    color: var(--texto-3);
+    font-size: 14px;
+  }
+
+  .cabecalho__link:hover {
+    color: var(--texto);
+  }
+
+  .cabecalho__link--ativo {
+    background: var(--superficie-2);
+    color: var(--texto);
+    font-weight: 500;
+  }
+}

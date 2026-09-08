@@ -1,0 +1,17 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.layout__conteudo {
+  flex-grow: 1;
+  /* espaço para a barra de navegação fixa no rodapé em telas pequenas */
+  padding-bottom: 68px;
+}
+
+@media (min-width: 768px) {
+  .layout__conteudo {
+    padding-bottom: 0;
+  }
+}

@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Archivo:wght@400;500;600&display=swap">
+  <style>
+    body { margin: 0; background: #12100E; font-family: Archivo, system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+    a { color: #E8A33D; text-decoration: none; }
+    a:hover { color: #F2BE86; }
+    * { box-sizing: border-box; }
+  </style>
+</helmet>
+
+<div style="width: 1440px; background: #12100E; color: #F5F1EA;">
+
+  <header style="display: flex; align-items: center; gap: 28px; height: 64px; padding: 0 40px; border-bottom: 1px solid #2E2924;">
+    <div style="display: flex; align-items: baseline; gap: 3px;">
+      <span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 23px; color: #F5F1EA;">Onde</span>
+      <span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 23px; color: #E8A33D;">Parei</span>
+    </div>
+    <nav style="display: flex; align-items: center; gap: 4px;">
+      <span style="display: flex; align-items: center; gap: 8px; padding: 7px 12px; border-radius: 4px; background: #221E1A; color: #F5F1EA; font-size: 14px; font-weight: 500;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5.5 9.5V21h13V9.5"/></svg>
+        Minhas séries
+      </span>
+      <span style="display: flex; align-items: center; gap: 8px; padding: 7px 12px; border-radius: 4px; color: #A39B8F; font-size: 14px;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        Buscar
+      </span>
+      <span style="display: flex; align-items: center; gap: 8px; padding: 7px 12px; border-radius: 4px; color: #A39B8F; font-size: 14px;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10"/><path d="M12 20V4"/><path d="M20 20v-7"/></svg>
+        Estatísticas
+      </span>
+    </nav>
+    <div style="flex-grow: 1;"></div>
+    <span style="padding: 6px 11px; border: 1px solid #2E2924; border-radius: 100px; color: #A39B8F; font-size: 12.5px;">12 séries acompanhadas</span>
+  </header>
+
+  <main style="max-width: 1200px; margin: 0 auto; padding: 44px 40px 56px;">
+
+    <div style="display: flex; align-items: flex-end; gap: 24px; margin-bottom: 26px;">
+      <div style="display: flex; flex-direction: column; gap: 8px;">
+        <h1 style="margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-size: 44px; font-weight: 400; line-height: 1.05; letter-spacing: -0.3px;">Continue de onde parou</h1>
+        <p style="margin: 0; font-size: 15px; color: #A39B8F;">4 séries com episódio esperando por você.</p>
+      </div>
+      <div style="flex-grow: 1;"></div>
+      <div style="display: flex; gap: 8px;">
+        <span style="padding: 7px 13px; border-radius: 100px; background: #221E1A; border: 1px solid #3C352D; font-size: 13px; color: #F5F1EA;">Em andamento <span style="color: #6E665C;">4</span></span>
+        <span style="padding: 7px 13px; border-radius: 100px; border: 1px solid #2E2924; font-size: 13px; color: #A39B8F;">Em dia <span style="color: #6E665C;">6</span></span>
+        <span style="padding: 7px 13px; border-radius: 100px; border: 1px solid #2E2924; font-size: 13px; color: #A39B8F;">Concluídas <span style="color: #6E665C;">2</span></span>
+        <span style="padding: 7px 13px; border-radius: 100px; border: 1px solid #2E2924; font-size: 13px; color: #A39B8F;">Todas <span style="color: #6E665C;">12</span></span>
+      </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px;">
+
+      <article style="display: flex; gap: 16px; padding: 16px; background: #1A1714; border: 1px solid #2E2924; border-radius: 6px;">
+        <div style="display: flex; align-items: center; justify-content: center; width: 92px; height: 138px; flex-shrink: 0; border-radius: 4px; background: #2A2119;">
+          <span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 54px; line-height: 1; color: #F5F1EA; opacity: 0.14;">S</span>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 9px; flex-grow: 1; min-width: 0;">
+          <div style="display: flex; align-items: baseline; gap: 9px;">
+            <h2 style="margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -0.1px;">Severance</h2>
+            <span style="font-size: 12px; color: #6E665C;">2022</span>
+          </div>
+          <div style="display: flex; align-items: baseline; gap: 9px; min-width: 0;">
+            <span style="padding: 3px 7px; border-radius: 3px; background: rgba(232,163,61,0.14); color: #E8A33D; font-size: 12px; font-weight: 600; letter-spacing: 0.3px;">T2E5</span>
+            <span style="font-size: 14.5px; color: #D6CFC4; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">O corredor sem fim</span>
+          </div>
+          <div style="display: flex; align-items: center; gap: 10px; margin-top: 2px;">
+            <div style="flex-grow: 1; height: 4px; border-radius: 2px; background: #2E2924; overflow: hidden;">
+              <div style="width: 37%; height: 100%; background: #E8A33D;"></div>
+            </div>
+            <span style="font-size: 12px; color: #6E665C; white-space: nowrap;">14 de 38</span>
+          </div>
+          <div style="flex-grow: 1;"></div>
+          <button style="display: inline-flex; align-items: center; gap: 7px; align-self: flex-start; padding: 8px 13px; background: transparent; border: 1px solid #3C352D; border-radius: 4px; color: #F5F1EA; font-family: Archivo, system-ui, sans-serif; font-size: 13px; font-weight: 500; cursor: pointer;">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8 12 2.5 2.5L16 9"/></svg>
+            Marcar como visto
+          </button>
+        </div>
+      </article>
+
+      <article style="display: flex; gap: 16px; padding: 16px; background: #1A1714; border: 1px solid #2E2924; border-radius: 6px;">
+        <div style="display: flex; align-items: center; justify-content: center; width: 92px; height: 138px; flex-shrink: 0; border-radius: 4px; background: #2B1E1B;">
+          <span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 54px; line-height: 1; color: #F5F1EA; opacity: 0.14;">B</span>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 9px; flex-grow: 1; min-width: 0;">
+          <div style="display: flex; align-items: baseline; gap: 9px;">
+            <h2 style="margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -0.1px;">The Bear</h2>
+            <span style="font-size: 12px; color: #6E665C;">2022</span>
+          </div>
+          <div style="display: flex; align-items: baseline; gap: 9px; min-width: 0;">
+            <span style="padding: 3px 7px; border-radius: 3px; background: rgba(232,163,61,0.14); color: #E8A33D; font-size: 12px; font-weight: 600; letter-spacing: 0.3px;">T3E2</span>
+            <span style="font-size: 14.5px; color: #D6CFC4; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Noite de serviço</span>
+          </div>
+          <div style="display: flex; align-items: center; gap: 10px; margin-top: 2px;">
+            <div style="flex-grow: 1; height: 4px; border-radius: 2px; background: #2E2924; overflow: hidden;">
+              <div style="width: 66%; height: 100%; background: #E8A33D;"></div>
+            </div>
+            <span style="font-size: 12px; color: #6E665C; white-space: nowrap;">19 de 28</span>
+          </div>
+          <div style="flex-grow: 1;"></div>
+          <button style="display: inline-flex; align-items: center; gap: 7px; align-self: flex-start; padding: 8px 13px; background: transparent; border: 1px solid #3C352D; border-radius: 4px; color: #F5F1EA; font-family: Archivo, system-ui, sans-serif; font-size: 13px; font-weight: 500; cursor: pointer;">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8 12 2.5 2.5L16 9"/></svg>
+            Marcar como visto
+          </button>
+        </div>
+      </article>
+
+      <article style="display: flex; gap: 16px; padding: 16px; background: #1A1714; border: 1px solid #2E2924; border-radius: 6px;">
+        <div style="display: flex; align-items: center; justify-content: center; width: 92px; height: 138px; flex-shrink: 0; border-radius: 4px; background: #1F2620;">
+          <span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 54px; line-height: 1; color: #F5F1EA; opacity: 0.14;">A</span>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 9px; flex-grow: 1; min-width: 0;">
+          <div style="display: flex; align-items: baseline; gap: 9px;">
+            <h2 style="margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -0.1px;">Andor</h2>
+            <span style="font-size: 12px; color: #6E665C;">2022</span>
+          </div>
+          <div style="display: flex; align-items: baseline; gap: 9px; min-width: 0;">
+            <span style="padding: 3px 7px; border-radius: 3px; background: rgba(232,163,61,0.14); color: #E8A33D; font-size: 12px; font-weight: 600; letter-spacing: 0.3px;">T1E9</span>
+            <span style="font-size: 14.5px; color: #D6CFC4; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Nada além do trabalho</span>
+          </div>
+          <div style="display: flex; align-items: center; gap: 10px; margin-top: 2px;">
+            <div style="flex-grow: 1; height: 4px; border-radius: 2px; background: #2E2924; overflow: hidden;">
+              <div style="width: 33%; height: 100%; background: #E8A33D;"></div>
+            </div>
+            <span style="font-size: 12px; color: #6E665C; white-space: nowrap;">8 de 24</span>
+          </div>
+          <div style="flex-grow: 1;"></div>
+          <button style="display: inline-flex; align-items: center; gap: 7px; align-self: flex-start; padding: 8px 13px; background: transparent; border: 1px solid #3C352D; border-radius: 4px; color: #F5F1EA; font-family: Archivo, system-ui, sans-serif; font-size: 13px; font-weight: 500; cursor: pointer;">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8 12 2.5 2.5L16 9"/></svg>
+            Marcar como visto
+          </button>
+        </div>
+      </article>
+
+      <article style="display: flex; gap: 16px; padding: 16px; background: #1A1714; border: 1px solid #2E2924; border-radius: 6px;">
+        <div style="display: flex; align-items: center; justify-content: center; width: 92px; height: 138px; flex-shrink: 0; border-radius: 4px; background: #251F2B;">
+          <span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 54px; line-height: 1; color: #F5F1EA; opacity: 0.14;">Sh</span>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 9px; flex-grow: 1; min-width: 0;">
+          <div style="display: flex; align-items: baseline; gap: 9px;">
+            <h2 style="margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -0.1px;">Shōgun</h2>
+            <span style="font-size: 12px; color: #6E665C;">2024</span>
+          </div>
+          <div style="display: flex; align-items: baseline; gap: 9px; min-width: 0;">
+            <span style="padding: 3px 7px; border-radius: 3px; background: rgba(232,163,61,0.14); color: #E8A33D; font-size: 12px; font-weight: 600; letter-spacing: 0.3px;">T1E3</span>
+            <span style="font-size: 14.5px; color: #D6CFC4; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">A maré vira ao amanhecer</span>
+          </div>
+          <div style="display: flex; align-items: center; gap: 10px; margin-top: 2px;">
+            <div style="flex-grow: 1; height: 4px; border-radius: 2px; background: #2E2924; overflow: hidden;">
+              <div style="width: 20%; height: 100%; background: #E8A33D;"></div>
+            </div>
+            <span style="font-size: 12px; color: #6E665C; white-space: nowrap;">2 de 10</span>
+          </div>
+          <div style="flex-grow: 1;"></div>
+          <button style="display: inline-flex; align-items: center; gap: 7px; align-self: flex-start; padding: 8px 13px; background: transparent; border: 1px solid #3C352D; border-radius: 4px; color: #F5F1EA; font-family: Archivo, system-ui, sans-serif; font-size: 13px; font-weight: 500; cursor: pointer;">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8 12 2.5 2.5L16 9"/></svg>
+            Marcar como visto
+          </button>
+        </div>
+      </article>
+
+    </div>
+
+    <div style="display: flex; align-items: center; gap: 14px; margin: 46px 0 18px;">
+      <h2 style="margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-size: 27px; font-weight: 400;">Em dia</h2>
+      <span style="display: flex; align-items: center; gap: 6px; font-size: 13px; color: #7BAE8E;">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8 12 2.5 2.5L16 9"/></svg>
+        sem episódio pendente
+      </span>
+      <div style="flex-grow: 1; height: 1px; background: #2E2924;"></div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 18px;">
+      <div style="display: flex; flex-direction: column; gap: 9px;">
+        <div style="position: relative; display: flex; align-items: center; justify-content: center; height: 260px; border-radius: 5px; background: #1E2429;">
+          <span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 70px; line-height: 1; color: #F5F1EA; opacity: 0.12;">F</span>
+          <span style="position: absolute; top: 9px; right: 9px; display: flex; align-items: center; justify-content: center; width: 22px; height: 22px; border-radius: 100px; background: rgba(18,16,14,0.72); color: #7BAE8E;">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7"/></svg>
+          </span>
+        </div>
+        <span style="font-size: 13.5px; color: #D6CFC4;">Fallout</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 9px;">
+        <div style="position: relative; display: flex; align-items: center; justify-content: center; height: 260px; border-radius: 5px; background: #2A241C;">
+          <span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 70px; line-height: 1; color: #F5F1EA; opacity: 0.12;">L</span>
+          <span style="position: absolute; top: 9px; right: 9px; display: flex; align-items: center; justify-content: center; width: 22px; height: 22px; border-radius: 100px; background: rgba(18,16,14,0.72); color: #7BAE8E;">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7"/></svg>
+          </span>
+        </div>
+        <span style="font-size: 13.5px; color: #D6CFC4;">The Last of Us</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 9px;">
+        <div style="position: relative; display: flex; align-items: center; justify-content: center; height: 260px; border-radius: 5px; background: #221D2B;">
+          <span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 70px; line-height: 1; color: #F5F1EA; opacity: 0.12;">A</span>
+          <span style="position: absolute; top: 9px; right: 9px; display: flex; align-items: center; justify-content: center; width: 22px; height: 22px; border-radius: 100px; background: rgba(18,16,14,0.72); color: #7BAE8E;">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7"/></svg>
+          </span>
+        </div>
+        <span style="font-size: 13.5px; color: #D6CFC4;">Arcane</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 9px;">
+        <div style="position: relative; display: flex; align-items: center; justify-content: center; height: 260px; border-radius: 5px; background: #1C1C22;">
+          <span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 70px; line-height: 1; color: #F5F1EA; opacity: 0.12;">D</span>
+          <span style="position: absolute; top: 9px; right: 9px; display: flex; align-items: center; justify-content: center; width: 22px; height: 22px; border-radius: 100px; background: rgba(18,16,14,0.72); color: #7BAE8E;">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7"/></svg>
+          </span>
+        </div>
+        <span style="font-size: 13.5px; color: #D6CFC4;">Dark</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 9px;">
+        <div style="position: relative; display: flex; align-items: center; justify-content: center; height: 260px; border-radius: 5px; background: #26201A;">
+          <span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 70px; line-height: 1; color: #F5F1EA; opacity: 0.12;">Su</span>
+          <span style="position: absolute; top: 9px; right: 9px; display: flex; align-items: center; justify-content: center; width: 22px; height: 22px; border-radius: 100px; background: rgba(18,16,14,0.72); color: #7BAE8E;">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7"/></svg>
+          </span>
+        </div>
+        <span style="font-size: 13.5px; color: #D6CFC4;">Succession</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 9px;">
+        <div style="position: relative; display: flex; align-items: center; justify-content: center; height: 260px; border-radius: 5px; background: #1F2521;">
+          <span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 70px; line-height: 1; color: #F5F1EA; opacity: 0.12;">C</span>
+          <span style="position: absolute; top: 9px; right: 9px; display: flex; align-items: center; justify-content: center; width: 22px; height: 22px; border-radius: 100px; background: rgba(18,16,14,0.72); color: #7BAE8E;">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7"/></svg>
+          </span>
+        </div>
+        <span style="font-size: 13.5px; color: #D6CFC4;">Chernobyl</span>
+      </div>
+    </div>
+
+  </main>
+</div>
+</x-dc>
+</body>
+</html>

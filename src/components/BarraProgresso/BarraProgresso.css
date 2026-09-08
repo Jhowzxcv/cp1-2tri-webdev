@@ -1,0 +1,37 @@
+.barra-progresso {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.barra-progresso__trilho {
+  flex-grow: 1;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--borda);
+  overflow: hidden;
+}
+
+.barra-progresso__preenchimento {
+  height: 100%;
+  background: var(--acento);
+  transition: width 220ms ease;
+}
+
+.barra-progresso__preenchimento--concluida {
+  background: var(--sucesso);
+}
+
+.barra-progresso__texto {
+  flex-shrink: 0;
+  color: var(--texto-4);
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .barra-progresso__preenchimento {
+    transition: none;
+  }
+}

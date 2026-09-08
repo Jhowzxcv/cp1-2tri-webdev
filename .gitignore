@@ -1,0 +1,20 @@
+node_modules
+dist
+dist-ssr
+.vite
+
+.env
+.env.local
+.env.*.local
+
+.DS_Store
+Thumbs.db
+*.local
+.vercel
+
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# canvas de design publicado (payload de ~2,5 MB gerado pelo seed)
+design/onde-parei.html

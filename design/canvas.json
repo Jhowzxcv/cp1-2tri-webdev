@@ -1,0 +1,45 @@
+{
+  "pages": [
+    { "id": "page-1", "name": "Telas" },
+    { "id": "page-2", "name": "Direções alternativas" }
+  ],
+  "artboards": [
+    { "file": "Main.dc.html", "title": "Início — desktop", "page": "page-1", "x": 0, "y": 0, "w": 1440, "h": 1060 },
+    { "file": "Busca.dc.html", "title": "Busca — desktop", "page": "page-1", "x": 1560, "y": 0, "w": 1440, "h": 720 },
+    { "file": "DetalhesSerie.dc.html", "title": "Detalhes da série — desktop", "page": "page-1", "x": 3120, "y": 0, "w": 1440, "h": 900 },
+    { "file": "Temporada.dc.html", "title": "Temporada — desktop", "page": "page-1", "x": 0, "y": 1220, "w": 1440, "h": 940 },
+    { "file": "Estatisticas.dc.html", "title": "Estatísticas — desktop", "page": "page-1", "x": 1560, "y": 1220, "w": 1440, "h": 820 },
+    { "file": "Estados.dc.html", "title": "Estados da aplicação", "page": "page-1", "x": 3120, "y": 1220, "w": 1440, "h": 680 },
+    { "file": "InicioMobile.dc.html", "title": "Início — mobile 390", "page": "page-1", "x": 0, "y": 2320, "w": 390, "h": 844 },
+    { "file": "TemporadaMobile.dc.html", "title": "Temporada — mobile 390", "page": "page-1", "x": 510, "y": 2320, "w": 390, "h": 844 },
+    { "file": "DirecaoB.dc.html", "title": "Direção B — Planilha noturna", "page": "page-2", "x": 0, "y": 0, "w": 900, "h": 700 },
+    { "file": "DirecaoC.dc.html", "title": "Direção C — Agenda da semana", "page": "page-2", "x": 1020, "y": 0, "w": 900, "h": 620 }
+  ],
+  "annotations": [
+    {
+      "id": "nota-fluxo",
+      "page": "page-1",
+      "x": 0,
+      "y": -170,
+      "w": 640,
+      "text": "Onde Parei — direção A, \"cinema noturno editorial\".\nFluxo principal: Busca → Detalhes → Temporada → marca episódio → o Início já mostra o próximo.\nSéries e episódios são dados de exemplo."
+    },
+    {
+      "id": "nota-mobile",
+      "page": "page-1",
+      "x": 1020,
+      "y": 2320,
+      "w": 420,
+      "text": "Mobile first: navegação vira barra inferior, alvos de toque ≥ 44px, sem status bar nem teclado desenhados (o aparelho renderiza os de verdade por cima)."
+    },
+    {
+      "id": "nota-direcoes",
+      "page": "page-2",
+      "x": 0,
+      "y": -150,
+      "w": 620,
+      "text": "Duas direções descartadas, mantidas como esboço para comparação. A direção A venceu porque o problema declarado é \"não lembro onde parei\" — retomar, não catalogar nem agendar."
+    }
+  ],
+  "launch": { "view": "canvas", "page": "page-1" }
+}

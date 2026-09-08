@@ -1,0 +1,40 @@
+.card-estatistica {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 22px;
+  border: 1px solid var(--borda);
+  border-radius: var(--raio);
+  background: var(--superficie);
+}
+
+.card-estatistica__icone {
+  display: flex;
+  color: var(--acento);
+}
+
+.card-estatistica__icone--sucesso {
+  color: var(--sucesso);
+}
+
+.card-estatistica__valor {
+  font-family: var(--serif);
+  font-size: 40px;
+  line-height: 1;
+  color: var(--texto);
+}
+
+.card-estatistica__rotulo {
+  color: var(--texto-3);
+  font-size: 13.5px;
+}
+
+.card-estatistica__detalhe {
+  color: var(--texto-4);
+}
+
+@media (min-width: 768px) {
+  .card-estatistica__valor {
+    font-size: 46px;
+  }
+}

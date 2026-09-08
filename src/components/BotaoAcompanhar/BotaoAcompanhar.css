@@ -1,0 +1,12 @@
+.botao-acompanhar--ativo {
+  border-color: var(--sucesso);
+  background: var(--sucesso);
+  color: var(--fundo);
+  font-weight: 600;
+}
+
+.botao-acompanhar--ativo:hover {
+  border-color: var(--erro);
+  background: var(--erro);
+  color: var(--fundo);
+}

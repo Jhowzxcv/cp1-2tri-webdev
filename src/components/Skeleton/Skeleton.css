@@ -1,0 +1,150 @@
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--superficie-2) 0%,
+    var(--borda) 50%,
+    var(--superficie-2) 100%
+  );
+  background-size: 200% 100%;
+  border-radius: 3px;
+  animation: skeleton-brilho 1.6s linear infinite;
+}
+
+@keyframes skeleton-brilho {
+  from {
+    background-position: 200% 0;
+  }
+  to {
+    background-position: -200% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skeleton {
+    animation: none;
+  }
+}
+
+/* pôsteres */
+
+.skeleton-poster {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.skeleton-poster__imagem {
+  aspect-ratio: 2 / 3;
+  border-radius: 5px;
+}
+
+.skeleton-poster__titulo {
+  width: 80%;
+  height: 14px;
+}
+
+.skeleton-poster__meta {
+  width: 45%;
+  height: 11px;
+}
+
+/* cartões da página inicial */
+
+.skeleton-cartao {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  border: 1px solid var(--borda);
+  border-radius: var(--raio);
+  background: var(--superficie);
+}
+
+.skeleton-cartao__poster {
+  flex-shrink: 0;
+  width: 92px;
+  height: 138px;
+  border-radius: var(--raio-p);
+}
+
+.skeleton-cartao__texto {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  flex-grow: 1;
+  padding-top: 4px;
+}
+
+/* cabeçalho de detalhes */
+
+.skeleton-cabecalho {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.skeleton-cabecalho__poster {
+  width: 100%;
+  max-width: 280px;
+  aspect-ratio: 2 / 3;
+  border-radius: var(--raio);
+}
+
+.skeleton-cabecalho__texto {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex-grow: 1;
+}
+
+/* linhas genéricas */
+
+.skeleton-linha {
+  width: 100%;
+  height: 12px;
+}
+
+.skeleton-linha--grande {
+  width: 60%;
+  height: 40px;
+}
+
+.skeleton-linha--titulo {
+  width: 55%;
+  height: 16px;
+}
+
+.skeleton-linha--media {
+  width: 70%;
+}
+
+.skeleton-linha--curta {
+  width: 32%;
+  height: 10px;
+}
+
+.skeleton-linha--barra {
+  height: 4px;
+}
+
+.skeleton-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.skeleton-lista__item {
+  height: 58px;
+  border-radius: var(--raio);
+}
+
+@media (min-width: 768px) {
+  .skeleton-cabecalho {
+    flex-direction: row;
+    gap: 36px;
+  }
+
+  .skeleton-cabecalho__poster {
+    flex-shrink: 0;
+    width: 280px;
+  }
+}

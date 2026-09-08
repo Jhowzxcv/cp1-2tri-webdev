@@ -1,0 +1,281 @@
+.detalhes {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.detalhes__lateral {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.detalhes__poster {
+  width: 100%;
+  max-width: 240px;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: var(--raio);
+  background: var(--superficie-2);
+}
+
+.detalhes__progresso {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  padding: 16px;
+  border: 1px solid var(--borda);
+  border-radius: var(--raio);
+  background: var(--superficie);
+}
+
+.detalhes__progresso-rotulo {
+  color: var(--texto-4);
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+.detalhes__progresso-numero {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.detalhes__progresso-numero strong {
+  font-family: var(--serif);
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--acento);
+}
+
+.detalhes__progresso-numero span {
+  color: var(--texto-3);
+  font-size: 13px;
+}
+
+.detalhes__proximo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  padding-top: 4px;
+  color: var(--texto-2);
+  font-size: 13px;
+}
+
+.detalhes__proximo:hover {
+  color: var(--texto);
+}
+
+.detalhes__proximo-titulo {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.detalhes__etiqueta {
+  flex-shrink: 0;
+  padding: 3px 7px;
+  border-radius: 3px;
+  background: var(--acento-fraco);
+  color: var(--acento);
+  font-size: 11.5px;
+  font-weight: 600;
+}
+
+.detalhes__em-dia {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-top: 4px;
+  color: var(--sucesso);
+  font-size: 13px;
+}
+
+.detalhes__conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-width: 0;
+}
+
+.detalhes__titulo {
+  font-family: var(--serif);
+  font-size: 38px;
+  line-height: 1.02;
+  letter-spacing: -0.4px;
+}
+
+.detalhes__meta {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  color: var(--texto-3);
+  font-size: 14px;
+}
+
+.detalhes__nota {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--texto);
+}
+
+.detalhes__nota svg {
+  color: var(--acento);
+}
+
+.detalhes__status {
+  padding: 3px 9px;
+  border: 1px solid var(--borda-forte);
+  border-radius: 100px;
+  font-size: 12px;
+}
+
+.detalhes__generos {
+  display: flex;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+
+.detalhes__genero {
+  padding: 4px 10px;
+  border-radius: 100px;
+  background: var(--superficie-2);
+  color: var(--texto-3);
+  font-size: 12.5px;
+}
+
+.detalhes__sinopse {
+  max-width: 66ch;
+  margin-top: 6px;
+  color: var(--texto-2);
+  font-size: 15.5px;
+  line-height: 1.65;
+  text-wrap: pretty;
+}
+
+.detalhes__temporadas {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* --- item de temporada --- */
+
+.temporada-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 16px;
+  border: 1px solid var(--borda);
+  border-radius: var(--raio);
+  background: var(--superficie);
+  color: inherit;
+}
+
+.temporada-item:hover {
+  border-color: var(--borda-forte);
+  color: inherit;
+}
+
+.temporada-item--atual {
+  border-color: var(--acento-borda);
+}
+
+.temporada-item--futura {
+  background: #17140f;
+  opacity: 0.72;
+}
+
+.temporada-item__numero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 40px;
+  height: 54px;
+  border-radius: var(--raio-p);
+  background: var(--superficie-2);
+  color: var(--texto-3);
+  font-family: var(--serif);
+  font-size: 21px;
+}
+
+.temporada-item__corpo {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.temporada-item__topo {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.temporada-item__nome {
+  font-size: 15.5px;
+  font-weight: 600;
+}
+
+.temporada-item__meta {
+  color: var(--texto-4);
+  font-size: 12.5px;
+}
+
+.temporada-item__barra {
+  max-width: 320px;
+}
+
+.temporada-item__aviso {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--texto-4);
+  font-size: 12.5px;
+}
+
+.temporada-item__seta {
+  flex-shrink: 0;
+  color: var(--texto-4);
+}
+
+.temporada-item--atual .temporada-item__seta {
+  color: var(--acento);
+}
+
+@media (min-width: 768px) {
+  .detalhes {
+    flex-direction: row;
+    gap: 36px;
+  }
+
+  .detalhes__lateral {
+    flex-shrink: 0;
+    width: 280px;
+  }
+
+  .detalhes__poster {
+    max-width: none;
+  }
+
+  .detalhes__titulo {
+    font-size: 52px;
+  }
+
+  .temporada-item {
+    padding: 16px 18px;
+  }
+
+  .temporada-item__numero {
+    width: 46px;
+    height: 62px;
+  }
+}

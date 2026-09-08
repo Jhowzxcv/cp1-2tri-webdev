@@ -1,0 +1,22 @@
+.rodape {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+  max-width: var(--largura);
+  margin: 0 auto;
+  padding: 28px 20px 36px;
+  border-top: 1px solid var(--borda);
+  color: var(--texto-4);
+  font-size: 12.5px;
+}
+
+.rodape__nota {
+  color: var(--texto-5);
+}
+
+@media (min-width: 768px) {
+  .rodape {
+    padding: 28px 40px 36px;
+  }
+}

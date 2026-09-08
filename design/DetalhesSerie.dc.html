@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Archivo:wght@400;500;600&display=swap">
+  <style>
+    body { margin: 0; background: #12100E; font-family: Archivo, system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+    a { color: #E8A33D; text-decoration: none; }
+    a:hover { color: #F2BE86; }
+    * { box-sizing: border-box; }
+  </style>
+</helmet>
+
+<div style="width: 1440px; background: #12100E; color: #F5F1EA;">
+
+  <header style="display: flex; align-items: center; gap: 28px; height: 64px; padding: 0 40px; border-bottom: 1px solid #2E2924;">
+    <div style="display: flex; align-items: baseline; gap: 3px;">
+      <span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 23px; color: #F5F1EA;">Onde</span>
+      <span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 23px; color: #E8A33D;">Parei</span>
+    </div>
+    <nav style="display: flex; align-items: center; gap: 4px;">
+      <span style="display: flex; align-items: center; gap: 8px; padding: 7px 12px; border-radius: 4px; color: #A39B8F; font-size: 14px;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5.5 9.5V21h13V9.5"/></svg>
+        Minhas séries
+      </span>
+      <span style="display: flex; align-items: center; gap: 8px; padding: 7px 12px; border-radius: 4px; color: #A39B8F; font-size: 14px;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        Buscar
+      </span>
+      <span style="display: flex; align-items: center; gap: 8px; padding: 7px 12px; border-radius: 4px; color: #A39B8F; font-size: 14px;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10"/><path d="M12 20V4"/><path d="M20 20v-7"/></svg>
+        Estatísticas
+      </span>
+    </nav>
+    <div style="flex-grow: 1;"></div>
+    <span style="padding: 6px 11px; border: 1px solid #2E2924; border-radius: 100px; color: #A39B8F; font-size: 12.5px;">12 séries acompanhadas</span>
+  </header>
+
+  <main style="max-width: 1200px; margin: 0 auto; padding: 32px 40px 56px;">
+
+    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 28px; font-size: 13px; color: #6E665C;">
+      <span style="color: #A39B8F;">Minhas séries</span>
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg>
+      <span>Severance</span>
+    </div>
+
+    <div style="display: flex; gap: 36px;">
+
+      <div style="display: flex; flex-direction: column; gap: 16px; width: 280px; flex-shrink: 0;">
+        <div style="display: flex; align-items: center; justify-content: center; height: 420px; border-radius: 6px; background: #2A2119;">
+          <span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 110px; line-height: 1; color: #F5F1EA; opacity: 0.13;">S</span>
+        </div>
+        <button style="display: flex; align-items: center; justify-content: center; gap: 8px; height: 44px; background: #7BAE8E; border: 1px solid #7BAE8E; border-radius: 5px; color: #12100E; font-family: Archivo, system-ui, sans-serif; font-size: 14.5px; font-weight: 600; cursor: pointer;">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7"/></svg>
+          Seguindo
+        </button>
+        <div style="display: flex; flex-direction: column; gap: 11px; padding: 16px; background: #1A1714; border: 1px solid #2E2924; border-radius: 6px;">
+          <span style="font-size: 12px; letter-spacing: 0.6px; text-transform: uppercase; color: #6E665C;">Seu progresso</span>
+          <div style="display: flex; align-items: baseline; gap: 7px;">
+            <span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 34px; line-height: 1; color: #E8A33D;">37%</span>
+            <span style="font-size: 13px; color: #A39B8F;">14 de 38 episódios</span>
+          </div>
+          <div style="height: 4px; border-radius: 2px; background: #2E2924; overflow: hidden;">
+            <div style="width: 37%; height: 100%; background: #E8A33D;"></div>
+          </div>
+          <div style="display: flex; align-items: center; gap: 8px; padding-top: 4px; font-size: 13px; color: #D6CFC4;">
+            <span style="padding: 3px 7px; border-radius: 3px; background: rgba(232,163,61,0.14); color: #E8A33D; font-size: 11.5px; font-weight: 600;">T2E5</span>
+            <span style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">O corredor sem fim</span>
+          </div>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 24px; flex-grow: 1; min-width: 0;">
+
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <h1 style="margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-size: 52px; font-weight: 400; line-height: 1.02; letter-spacing: -0.5px;">Severance</h1>
+          <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+            <span style="font-size: 14px; color: #A39B8F;">2022</span>
+            <span style="width: 3px; height: 3px; border-radius: 100px; background: #4A423A;"></span>
+            <span style="display: flex; align-items: center; gap: 4px; font-size: 14px; color: #F5F1EA;">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="#E8A33D" stroke="none"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6.1L12 16.8 6.7 19.7l1.1-6.1L3.4 9.4l6-.8z"/></svg>
+              8.7
+            </span>
+            <span style="width: 3px; height: 3px; border-radius: 100px; background: #4A423A;"></span>
+            <span style="font-size: 14px; color: #A39B8F;">2 temporadas · 38 episódios</span>
+            <span style="width: 3px; height: 3px; border-radius: 100px; background: #4A423A;"></span>
+            <span style="padding: 3px 9px; border: 1px solid #3C352D; border-radius: 100px; font-size: 12px; color: #A39B8F;">Em exibição</span>
+          </div>
+          <div style="display: flex; gap: 7px; flex-wrap: wrap; padding-top: 2px;">
+            <span style="padding: 4px 10px; border-radius: 100px; background: #221E1A; font-size: 12.5px; color: #A39B8F;">Drama</span>
+            <span style="padding: 4px 10px; border-radius: 100px; background: #221E1A; font-size: 12.5px; color: #A39B8F;">Mistério</span>
+            <span style="padding: 4px 10px; border-radius: 100px; background: #221E1A; font-size: 12.5px; color: #A39B8F;">Ficção científica</span>
+          </div>
+        </div>
+
+        <p style="margin: 0; max-width: 660px; font-size: 15.5px; line-height: 1.65; color: #D6CFC4; text-wrap: pretty;">Mark lidera uma equipe de funcionários cujas memórias foram cirurgicamente divididas entre a vida no trabalho e a vida pessoal. Quando um antigo colega reaparece do lado de fora do escritório, ele começa a puxar o fio de uma verdade que os dois lados guardam.</p>
+
+        <div style="display: flex; align-items: center; gap: 14px; margin-top: 6px;">
+          <h2 style="margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-size: 27px; font-weight: 400;">Temporadas</h2>
+          <div style="flex-grow: 1; height: 1px; background: #2E2924;"></div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+
+          <div style="display: flex; align-items: center; gap: 18px; padding: 16px 18px; background: #1A1714; border: 1px solid #2E2924; border-radius: 6px;">
+            <div style="display: flex; align-items: center; justify-content: center; width: 46px; height: 62px; flex-shrink: 0; border-radius: 4px; background: #2A2119;">
+              <span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 22px; color: #F5F1EA; opacity: 0.4;">1</span>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 7px; flex-grow: 1; min-width: 0;">
+              <div style="display: flex; align-items: baseline; gap: 10px;">
+                <span style="font-size: 15.5px; font-weight: 600;">Temporada 1</span>
+                <span style="font-size: 12.5px; color: #6E665C;">9 episódios · 2022</span>
+              </div>
+              <div style="display: flex; align-items: center; gap: 10px;">
+                <div style="flex-grow: 1; max-width: 320px; height: 4px; border-radius: 2px; background: #2E2924; overflow: hidden;">
+                  <div style="width: 100%; height: 100%; background: #7BAE8E;"></div>
+                </div>
+                <span style="display: flex; align-items: center; gap: 5px; font-size: 12px; color: #7BAE8E;">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7"/></svg>
+                  completa
+                </span>
+              </div>
+            </div>
+            <span style="display: flex; color: #6E665C;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg>
+            </span>
+          </div>
+
+          <div style="display: flex; align-items: center; gap: 18px; padding: 16px 18px; background: #1A1714; border: 1px solid #4A3D28; border-radius: 6px;">
+            <div style="display: flex; align-items: center; justify-content: center; width: 46px; height: 62px; flex-shrink: 0; border-radius: 4px; background: #2A2119;">
+              <span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 22px; color: #F5F1EA; opacity: 0.4;">2</span>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 7px; flex-grow: 1; min-width: 0;">
+              <div style="display: flex; align-items: baseline; gap: 10px;">
+                <span style="font-size: 15.5px; font-weight: 600;">Temporada 2</span>
+                <span style="font-size: 12.5px; color: #6E665C;">10 episódios · 2025</span>
+                <span style="padding: 2px 7px; border-radius: 3px; background: rgba(232,163,61,0.14); color: #E8A33D; font-size: 11px; font-weight: 600;">você está aqui</span>
+              </div>
+              <div style="display: flex; align-items: center; gap: 10px;">
+                <div style="flex-grow: 1; max-width: 320px; height: 4px; border-radius: 2px; background: #2E2924; overflow: hidden;">
+                  <div style="width: 40%; height: 100%; background: #E8A33D;"></div>
+                </div>
+                <span style="font-size: 12px; color: #6E665C;">4 de 10</span>
+              </div>
+            </div>
+            <span style="display: flex; color: #E8A33D;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg>
+            </span>
+          </div>
+
+          <div style="display: flex; align-items: center; gap: 18px; padding: 16px 18px; background: #17140F; border: 1px solid #2E2924; border-radius: 6px; opacity: 0.62;">
+            <div style="display: flex; align-items: center; justify-content: center; width: 46px; height: 62px; flex-shrink: 0; border-radius: 4px; background: #221E1A;">
+              <span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 22px; color: #F5F1EA; opacity: 0.3;">3</span>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 7px; flex-grow: 1; min-width: 0;">
+              <div style="display: flex; align-items: baseline; gap: 10px;">
+                <span style="font-size: 15.5px; font-weight: 600; color: #A39B8F;">Temporada 3</span>
+                <span style="font-size: 12.5px; color: #6E665C;">anunciada</span>
+              </div>
+              <span style="display: flex; align-items: center; gap: 6px; font-size: 12.5px; color: #6E665C;">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+                sem episódios lançados — fora do cálculo de progresso
+              </span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+</x-dc>
+</body>
+</html>

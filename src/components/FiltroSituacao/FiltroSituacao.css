@@ -1,0 +1,40 @@
+.filtro-situacao {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 2px;
+  scrollbar-width: none;
+}
+
+.filtro-situacao::-webkit-scrollbar {
+  display: none;
+}
+
+.filtro-situacao__item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  padding: 8px 13px;
+  border: 1px solid var(--borda);
+  border-radius: 100px;
+  background: transparent;
+  color: var(--texto-3);
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.filtro-situacao__item:hover {
+  border-color: var(--borda-forte);
+  color: var(--texto);
+}
+
+.filtro-situacao__item--ativo {
+  border-color: var(--borda-forte);
+  background: var(--superficie-2);
+  color: var(--texto);
+}
+
+.filtro-situacao__numero {
+  color: var(--texto-4);
+}

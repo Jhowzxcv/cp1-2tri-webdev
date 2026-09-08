@@ -1,0 +1,16 @@
+.inicio__cabecalho {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+@media (min-width: 1024px) {
+  .inicio__cabecalho {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 26px;
+  }
+}

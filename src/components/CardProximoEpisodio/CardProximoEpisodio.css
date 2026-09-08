@@ -1,0 +1,102 @@
+.card-proximo {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  border: 1px solid var(--borda);
+  border-radius: var(--raio);
+  background: var(--superficie);
+}
+
+.card-proximo__poster {
+  flex-shrink: 0;
+  width: 92px;
+  border-radius: var(--raio-p);
+  background: var(--superficie-2);
+  overflow: hidden;
+}
+
+.card-proximo__poster img {
+  width: 92px;
+  height: 138px;
+  object-fit: cover;
+}
+
+.card-proximo__corpo {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.card-proximo__topo {
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+  min-width: 0;
+}
+
+.card-proximo__nome {
+  color: var(--texto);
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: -0.1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card-proximo__nome:hover {
+  color: var(--acento);
+}
+
+.card-proximo__ano {
+  flex-shrink: 0;
+  color: var(--texto-4);
+  font-size: 12px;
+}
+
+.card-proximo__episodio {
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+  min-width: 0;
+  color: inherit;
+}
+
+.card-proximo__etiqueta {
+  flex-shrink: 0;
+  padding: 3px 7px;
+  border-radius: 3px;
+  background: var(--acento-fraco);
+  color: var(--acento);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.card-proximo__titulo {
+  color: var(--texto-2);
+  font-size: 14.5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card-proximo__episodio:hover .card-proximo__titulo {
+  color: var(--texto);
+}
+
+.card-proximo__botao {
+  align-self: stretch;
+  margin-top: auto;
+}
+
+@media (min-width: 768px) {
+  .card-proximo__botao {
+    align-self: flex-start;
+    min-height: 38px;
+    padding: 8px 13px;
+    font-size: 13px;
+  }
+}

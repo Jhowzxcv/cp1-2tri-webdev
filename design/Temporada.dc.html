@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Archivo:wght@400;500;600&display=swap">
+  <style>
+    body { margin: 0; background: #12100E; font-family: Archivo, system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+    a { color: #E8A33D; text-decoration: none; }
+    a:hover { color: #F2BE86; }
+    * { box-sizing: border-box; }
+  </style>
+</helmet>
+
+<div style="width: 1440px; background: #12100E; color: #F5F1EA;">
+
+  <header style="display: flex; align-items: center; gap: 28px; height: 64px; padding: 0 40px; border-bottom: 1px solid #2E2924;">
+    <div style="display: flex; align-items: baseline; gap: 3px;">
+      <span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 23px; color: #F5F1EA;">Onde</span>
+      <span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 23px; color: #E8A33D;">Parei</span>
+    </div>
+    <nav style="display: flex; align-items: center; gap: 4px;">
+      <span style="display: flex; align-items: center; gap: 8px; padding: 7px 12px; border-radius: 4px; color: #A39B8F; font-size: 14px;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5.5 9.5V21h13V9.5"/></svg>
+        Minhas séries
+      </span>
+      <span style="display: flex; align-items: center; gap: 8px; padding: 7px 12px; border-radius: 4px; color: #A39B8F; font-size: 14px;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        Buscar
+      </span>
+      <span style="display: flex; align-items: center; gap: 8px; padding: 7px 12px; border-radius: 4px; color: #A39B8F; font-size: 14px;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10"/><path d="M12 20V4"/><path d="M20 20v-7"/></svg>
+        Estatísticas
+      </span>
+    </nav>
+    <div style="flex-grow: 1;"></div>
+    <span style="padding: 6px 11px; border: 1px solid #2E2924; border-radius: 100px; color: #A39B8F; font-size: 12.5px;">12 séries acompanhadas</span>
+  </header>
+
+  <main style="max-width: 900px; margin: 0 auto; padding: 32px 40px 56px;">
+
+    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 26px; font-size: 13px; color: #6E665C;">
+      <span style="color: #A39B8F;">Minhas séries</span>
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg>
+      <span style="color: #A39B8F;">Severance</span>
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg>
+      <span>Temporada 2</span>
+    </div>
+
+    <div style="display: flex; align-items: flex-end; gap: 24px; margin-bottom: 10px;">
+      <div style="display: flex; flex-direction: column; gap: 7px;">
+        <h1 style="margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-size: 42px; font-weight: 400; line-height: 1.05; letter-spacing: -0.3px;">Temporada 2</h1>
+        <span style="font-size: 14px; color: #A39B8F;">Severance · 10 episódios · 2025</span>
+      </div>
+      <div style="flex-grow: 1;"></div>
+      <div style="display: flex; gap: 9px;">
+        <button style="display: inline-flex; align-items: center; gap: 7px; padding: 9px 14px; background: transparent; border: 1px solid #3C352D; border-radius: 4px; color: #F5F1EA; font-family: Archivo, system-ui, sans-serif; font-size: 13px; font-weight: 500; cursor: pointer;">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7"/></svg>
+          Marcar temporada inteira
+        </button>
+        <button style="display: inline-flex; align-items: center; gap: 7px; padding: 9px 14px; background: transparent; border: 1px solid #2E2924; border-radius: 4px; color: #A39B8F; font-family: Archivo, system-ui, sans-serif; font-size: 13px; cursor: pointer;">
+          Desmarcar
+        </button>
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 28px;">
+      <div style="flex-grow: 1; height: 4px; border-radius: 2px; background: #2E2924; overflow: hidden;">
+        <div style="width: 40%; height: 100%; background: #E8A33D;"></div>
+      </div>
+      <span style="font-size: 12.5px; color: #6E665C; white-space: nowrap;">4 de 10 lançados</span>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 8px;">
+
+      <div style="display: flex; align-items: center; gap: 16px; padding: 14px 18px; background: #191713; border: 1px solid #2A2521; border-radius: 6px;">
+        <span style="display: flex; flex-shrink: 0; color: #7BAE8E;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8 12 2.5 2.5L16 9"/></svg>
+        </span>
+        <span style="width: 34px; flex-shrink: 0; font-size: 13px; font-weight: 600; color: #6E665C;">E1</span>
+        <span style="flex-grow: 1; min-width: 0; font-size: 15px; color: #8F887E; text-decoration: line-through; text-decoration-color: #3C352D;">Hello, Ms. Cobel</span>
+        <span style="font-size: 12.5px; color: #4A423A; white-space: nowrap;">17/01/2025</span>
+        <span style="width: 54px; text-align: right; font-size: 12.5px; color: #4A423A; white-space: nowrap;">51 min</span>
+      </div>
+
+      <div style="display: flex; align-items: center; gap: 16px; padding: 14px 18px; background: #191713; border: 1px solid #2A2521; border-radius: 6px;">
+        <span style="display: flex; flex-shrink: 0; color: #7BAE8E;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8 12 2.5 2.5L16 9"/></svg>
+        </span>
+        <span style="width: 34px; flex-shrink: 0; font-size: 13px; font-weight: 600; color: #6E665C;">E2</span>
+        <span style="flex-grow: 1; min-width: 0; font-size: 15px; color: #8F887E; text-decoration: line-through; text-decoration-color: #3C352D;">Sala de descompressão</span>
+        <span style="font-size: 12.5px; color: #4A423A; white-space: nowrap;">24/01/2025</span>
+        <span style="width: 54px; text-align: right; font-size: 12.5px; color: #4A423A; white-space: nowrap;">46 min</span>
+      </div>
+
+      <div style="display: flex; align-items: center; gap: 16px; padding: 14px 18px; background: #191713; border: 1px solid #2A2521; border-radius: 6px;">
+        <span style="display: flex; flex-shrink: 0; color: #7BAE8E;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8 12 2.5 2.5L16 9"/></svg>
+        </span>
+        <span style="width: 34px; flex-shrink: 0; font-size: 13px; font-weight: 600; color: #6E665C;">E3</span>
+        <span style="flex-grow: 1; min-width: 0; font-size: 15px; color: #8F887E; text-decoration: line-through; text-decoration-color: #3C352D;">O andar de baixo</span>
+        <span style="font-size: 12.5px; color: #4A423A; white-space: nowrap;">31/01/2025</span>
+        <span style="width: 54px; text-align: right; font-size: 12.5px; color: #4A423A; white-space: nowrap;">44 min</span>
+      </div>
+
+      <div style="display: flex; align-items: center; gap: 16px; padding: 14px 18px; background: #191713; border: 1px solid #2A2521; border-radius: 6px;">
+        <span style="display: flex; flex-shrink: 0; color: #7BAE8E;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8 12 2.5 2.5L16 9"/></svg>
+        </span>
+        <span style="width: 34px; flex-shrink: 0; font-size: 13px; font-weight: 600; color: #6E665C;">E4</span>
+        <span style="flex-grow: 1; min-width: 0; font-size: 15px; color: #8F887E; text-decoration: line-through; text-decoration-color: #3C352D;">Woe's Hollow</span>
+        <span style="font-size: 12.5px; color: #4A423A; white-space: nowrap;">07/02/2025</span>
+        <span style="width: 54px; text-align: right; font-size: 12.5px; color: #4A423A; white-space: nowrap;">57 min</span>
+      </div>
+
+      <div style="display: flex; align-items: center; gap: 16px; padding: 14px 18px; background: #1F1B14; border: 1px solid #4A3D28; border-radius: 6px;">
+        <span style="display: flex; flex-shrink: 0; color: #E8A33D;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/></svg>
+        </span>
+        <span style="width: 34px; flex-shrink: 0; font-size: 13px; font-weight: 600; color: #E8A33D;">E5</span>
+        <div style="display: flex; align-items: baseline; gap: 10px; flex-grow: 1; min-width: 0;">
+          <span style="font-size: 15px; font-weight: 500; color: #F5F1EA;">O corredor sem fim</span>
+          <span style="padding: 2px 7px; border-radius: 3px; background: rgba(232,163,61,0.14); color: #E8A33D; font-size: 11px; font-weight: 600; white-space: nowrap;">próximo</span>
+        </div>
+        <span style="font-size: 12.5px; color: #6E665C; white-space: nowrap;">14/02/2025</span>
+        <span style="width: 54px; text-align: right; font-size: 12.5px; color: #6E665C; white-space: nowrap;">49 min</span>
+      </div>
+
+      <div style="display: flex; align-items: center; gap: 16px; padding: 14px 18px; background: #1A1714; border: 1px solid #2E2924; border-radius: 6px;">
+        <span style="display: flex; flex-shrink: 0; color: #4A423A;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/></svg>
+        </span>
+        <span style="width: 34px; flex-shrink: 0; font-size: 13px; font-weight: 600; color: #6E665C;">E6</span>
+        <span style="flex-grow: 1; min-width: 0; font-size: 15px; color: #D6CFC4;">Attila</span>
+        <span style="font-size: 12.5px; color: #6E665C; white-space: nowrap;">21/02/2025</span>
+        <span style="width: 54px; text-align: right; font-size: 12.5px; color: #6E665C; white-space: nowrap;">42 min</span>
+      </div>
+
+      <div style="display: flex; align-items: center; gap: 16px; padding: 14px 18px; background: #1A1714; border: 1px solid #2E2924; border-radius: 6px;">
+        <span style="display: flex; flex-shrink: 0; color: #4A423A;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/></svg>
+        </span>
+        <span style="width: 34px; flex-shrink: 0; font-size: 13px; font-weight: 600; color: #6E665C;">E7</span>
+        <span style="flex-grow: 1; min-width: 0; font-size: 15px; color: #D6CFC4;">Chikhai Bardo</span>
+        <span style="font-size: 12.5px; color: #6E665C; white-space: nowrap;">28/02/2025</span>
+        <span style="width: 54px; text-align: right; font-size: 12.5px; color: #6E665C; white-space: nowrap;">45 min</span>
+      </div>
+
+      <div style="display: flex; align-items: center; gap: 16px; padding: 14px 18px; background: #16130F; border: 1px solid #211E1A; border-radius: 6px;">
+        <span style="display: flex; flex-shrink: 0; color: #3C352D;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        </span>
+        <span style="width: 34px; flex-shrink: 0; font-size: 13px; font-weight: 600; color: #4A423A;">E8</span>
+        <div style="display: flex; align-items: baseline; gap: 10px; flex-grow: 1; min-width: 0;">
+          <span style="font-size: 15px; color: #6E665C;">Sweet Vitriol</span>
+          <span style="padding: 2px 7px; border: 1px solid #2E2924; border-radius: 3px; color: #4A423A; font-size: 11px; white-space: nowrap;">ainda não lançado</span>
+        </div>
+        <span style="font-size: 12.5px; color: #3C352D; white-space: nowrap;">14/03/2025</span>
+        <span style="width: 54px; text-align: right; font-size: 12.5px; color: #3C352D; white-space: nowrap;">—</span>
+      </div>
+
+      <div style="display: flex; align-items: center; gap: 16px; padding: 14px 18px; background: #16130F; border: 1px solid #211E1A; border-radius: 6px;">
+        <span style="display: flex; flex-shrink: 0; color: #3C352D;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        </span>
+        <span style="width: 34px; flex-shrink: 0; font-size: 13px; font-weight: 600; color: #4A423A;">E9</span>
+        <div style="display: flex; align-items: baseline; gap: 10px; flex-grow: 1; min-width: 0;">
+          <span style="font-size: 15px; color: #6E665C;">The After Hours</span>
+          <span style="padding: 2px 7px; border: 1px solid #2E2924; border-radius: 3px; color: #4A423A; font-size: 11px; white-space: nowrap;">ainda não lançado</span>
+        </div>
+        <span style="font-size: 12.5px; color: #3C352D; white-space: nowrap;">21/03/2025</span>
+        <span style="width: 54px; text-align: right; font-size: 12.5px; color: #3C352D; white-space: nowrap;">—</span>
+      </div>
+
+    </div>
+
+    <p style="margin: 22px 0 0; font-size: 12.5px; color: #4A423A;">Episódios ainda não lançados não podem ser marcados e ficam fora do cálculo de progresso.</p>
+
+  </main>
+</div>
+</x-dc>
+</body>
+</html>
