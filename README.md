@@ -6,7 +6,7 @@ MVP em React desenvolvido para o **CP1 — 2º trimestre — Web Development**, 
 partir do encerramento do TV Time em julho de 2026.
 
 - **Site publicado:** [PREENCHER — URL DA VERCEL]
-- **Repositório:** [PREENCHER — URL DO GITHUB]
+- **Repositório:** <https://github.com/Jhowzxcv/cp1-2tri-webdev>
 
 ---
 
@@ -114,7 +114,8 @@ Endpoints consumidos:
 |---|---|---|
 | `buscarSeries` | `GET /search/tv` | Busca |
 | `buscarSerie` | `GET /tv/{id}` | Detalhes da série |
-| `buscarTemporada` | `GET /tv/{id}/season/{n}` | Temporada, Início |
+| `buscarTemporada` | `GET /tv/{id}/season/{n}` | Temporada |
+| `buscarTodosEpisodios` | várias temporadas em `Promise.all` | Início, Detalhes da série |
 | `buscarPopulares` | `GET /tv/popular` | Sugestões na Busca |
 
 ---
@@ -125,8 +126,8 @@ Pré-requisitos: **Node.js 18+** e uma chave gratuita do TMDB.
 
 ```bash
 # 1. clonar e entrar na pasta
-git clone [URL DO REPOSITÓRIO]
-cd onde-parei
+git clone https://github.com/Jhowzxcv/cp1-2tri-webdev.git
+cd cp1-2tri-webdev
 
 # 2. instalar as dependências
 npm install
@@ -172,7 +173,7 @@ progresso, situação da série e estatísticas.
 ## Estrutura do projeto
 
 ```
-onde-parei/
+cp1-2tri-webdev/
 ├── docs/                    ← especificação (Spec Driven Development)
 │   ├── requirements.md      ← objetivo, público, user stories, estados, regras
 │   ├── architecture.md      ← páginas, rotas, componentes, props, estados, efeitos
@@ -188,7 +189,8 @@ onde-parei/
 │   ├── utils/               ← regras de produto, formatação, localStorage
 │   ├── App.jsx              ← estado compartilhado + <Routes />
 │   └── main.jsx
-└── docs/architecture.md     ← mapa completo de rotas, props e efeitos
+├── vercel.json              ← rewrite de SPA para o React Router
+└── README.md
 ```
 
 ### Rotas
