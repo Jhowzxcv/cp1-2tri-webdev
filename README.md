@@ -5,7 +5,7 @@
 MVP em React desenvolvido para o **CP1 — 2º trimestre — Web Development**, a
 partir do encerramento do TV Time em julho de 2026.
 
-- **Site publicado:** [PREENCHER — URL DA VERCEL]
+- **Site publicado:** <https://onde-parei-iota.vercel.app>
 - **Repositório:** <https://github.com/Jhowzxcv/cp1-2tri-webdev>
 
 ---
