@@ -40,7 +40,7 @@ function Estatisticas({ series, assistidos, resumos }) {
       <div className="pagina__cabecalho">
         <h1 className="pagina__titulo">Suas estatísticas</h1>
         <p className="pagina__subtitulo">
-          Tudo que você marcou desde que começou a usar o Onde Parei.
+          Tudo que você marcou desde que começou a usar o Cliffhanger.
         </p>
       </div>
 

@@ -1,6 +1,6 @@
-# Onde Parei
+# Cliffhanger
 
-> Acompanhe suas séries e nunca mais perca o fio de onde parou.
+> Você sempre parou no meio. A gente lembra onde.
 
 MVP em React desenvolvido para o **CP1 — 2º trimestre — Web Development**, a
 partir do encerramento do TV Time em julho de 2026.

@@ -11,8 +11,8 @@ function Cabecalho({ totalSeries }) {
     <header className="cabecalho">
       <div className="cabecalho__interno">
         <Link to="/" className="cabecalho__marca">
-          <span className="cabecalho__marca-1">Onde</span>
-          <span className="cabecalho__marca-2">Parei</span>
+          <span className="cabecalho__marca-1">Cliff</span>
+          <span className="cabecalho__marca-2">hanger</span>
         </Link>
 
         <nav className="cabecalho__nav">
