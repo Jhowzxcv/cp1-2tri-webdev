@@ -1,4 +1,4 @@
-# Onde Parei — Arquitetura
+# Cliffhanger — Arquitetura
 
 > Documento de desenho técnico (fase *Design* do Spec Driven Development).
 > Deriva de [`requirements.md`](./requirements.md). Cada componente aqui
@@ -31,7 +31,7 @@ componentes").
 ## 2. Estrutura de pastas
 
 ```
-onde-parei/
+cp1-2tri-webdev/
 ├── docs/
 │   ├── requirements.md
 │   ├── architecture.md
@@ -502,7 +502,7 @@ Toda leitura é envolvida em `try/catch`: navegador em modo anônimo ou com
 dados de site bloqueados pode lançar exceção, e nesse caso a aplicação deve
 abrir vazia em vez de quebrar.
 
-Chaves: `ondeparei:series` e `ondeparei:assistidos`.
+Chaves: `cliffhanger:series` e `cliffhanger:assistidos`.
 
 ### `utils/formato.js`
 

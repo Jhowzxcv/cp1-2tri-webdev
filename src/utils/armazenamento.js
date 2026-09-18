@@ -3,9 +3,9 @@
 // site bloqueados lança exceção, e nesse caso a aplicação deve abrir vazia em
 // vez de quebrar.
 
-const CHAVE_SERIES = 'ondeparei:series'
-const CHAVE_ASSISTIDOS = 'ondeparei:assistidos'
-const CHAVE_RESUMOS = 'ondeparei:resumos'
+const CHAVE_SERIES = 'cliffhanger:series'
+const CHAVE_ASSISTIDOS = 'cliffhanger:assistidos'
+const CHAVE_RESUMOS = 'cliffhanger:resumos'
 
 function ler(chave, padrao) {
   try {

@@ -1,4 +1,4 @@
-# Onde Parei — Referências visuais
+# Cliffhanger — Referências visuais
 
 > Referências de produtos digitais que motivaram decisões concretas de design.
 > Para cada uma: **qual elemento observamos**, **onde ele foi usado** no nosso

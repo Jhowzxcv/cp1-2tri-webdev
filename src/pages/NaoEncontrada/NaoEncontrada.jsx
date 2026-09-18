@@ -8,7 +8,7 @@ function NaoEncontrada() {
       <EstadoVazio
         icone={<FiCompass size={44} />}
         titulo="Essa página não existe"
-        descricao="O endereço que você abriu não corresponde a nenhuma tela do Onde Parei."
+        descricao="O endereço que você abriu não corresponde a nenhuma tela do Cliffhanger."
         acao={
           <Link to="/" className="botao botao--principal">
             Voltar para minhas séries

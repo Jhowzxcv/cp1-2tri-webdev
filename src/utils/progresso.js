@@ -1,4 +1,4 @@
-// Regras de produto do Onde Parei (RP-01 a RP-08 do docs/requirements.md).
+// Regras de produto do Cliffhanger (RP-01 a RP-08 do docs/requirements.md).
 // Funções puras: recebem dados, devolvem dados. Sem React e sem fetch, para
 // que possam ser conferidas manualmente contra os critérios de aceitação.
 
