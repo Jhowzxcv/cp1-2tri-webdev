@@ -14,9 +14,8 @@ partir do encerramento do TV Time em julho de 2026.
 
 | Nome | RM |
 |---|---|
-| [PREENCHER] | [PREENCHER] |
-| [PREENCHER] | [PREENCHER] |
-| [PREENCHER] | [PREENCHER] |
+| Jhonathan Dourado | 569568 |
+| João Matheus Feliciano de Bueno | 569850 |
 
 ---
 
