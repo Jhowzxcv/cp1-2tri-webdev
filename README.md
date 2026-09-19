@@ -2,7 +2,7 @@
 
 Plataforma web para descobrir séries e acompanhar os episódios assistidos. Nasceu do vazio deixado pelo fim do TV Time.
 
-- **Site publicado:** <https://cliffhanger-tv.vercel.app>
+- **Site publicado:** <https://maratona-series.vercel.app>
 - **Repositório:** <https://github.com/Jhowzxcv/cp1-2tri-webdev>
 
 ## Integrantes
